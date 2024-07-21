@@ -5,7 +5,9 @@
 - **Conocimiento de tecnología:** medio
 
 **¿Qué es un sistema operativo?** todo el sistema que se tiene en la computadora, como la interfaz y diseño. Prácticamente como el teléfono o dispositivo está diseñado para verse y manipularse.
+
 **¿Qué es un archivo?** conjunto de código que puede tener diferentes formatos que muestran una imagen, audio, etc. o incluso varios archivos juntos que conforman un programa.
+
 **¿Qué es IP?** cómo se identifica cada dispositivo en una red.
 
 ### Persona 2
@@ -13,7 +15,9 @@
 - **Conocimiento de tecnología:** bajo
 
 **¿Qué es un sistema operativo?** Windows es un sistema operativo.
+
 **¿Qué es un archivo?** un documento.
+
 **¿Qué es IP?** un link en donde se puede encontrar información.
 
 ## Análisis
