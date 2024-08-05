@@ -7,6 +7,9 @@ sudo adduser usuario2
 sudo adduser usuario3
 ```
 
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/1_1.jpg)
+
+
 2. Asignación de Contraseñas: Establece una nueva contraseñas para cada usuario creado.
 ```
 sudo passwd usuario1
@@ -14,15 +17,24 @@ sudo passwd usuario2
 sudo passwd usuario3
 ```
 
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/1_2.jpg)
+
+
 3. Información de Usuarios: Muestra la información de `usuario1` usando el comando `id`.
 ```
 id usuario1
 ```
 
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/1_3.jpg)
+
+
 4. Eliminación de Usuarios: Elimina `usuario3`, pero conserva su directorio principal.
 ```
 sudo userdel usuario3
 ```
+
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/1_4.jpg)
+
 
 ## Parte 2: Gestión de Grupos
 1. Creación de Grupos: Crea dos grupos llamados `grupo1` y `grupo2`.
@@ -43,10 +55,16 @@ groups usuario1
 groups usuario2
 ```
 
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/2_3.jpg)
+
+
 4. Eliminar Grupo: Elimina `grupo2`.
 ```
 sudo groupdel grupo2
 ```
+
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/2_4.jpg)
+
 
 ## Parte 3: Gestión de Permisos
 1. Creación de Archivos y Directorios:
@@ -64,6 +82,9 @@ touch archivo2.txt
 ls -l
 ls -ld
 ```
+
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/3_2.jpg)
+
 
 3. Modificar Permisos usando `chmod` con Modo Numérico: Cambia los permisos del `archivo1.txt` para que sólo `usuario1` pueda leer y escribir (permisos `rw-`), el grupo pueda leer (permisos `r--`) y nadie más pueda hacer nada.
 ```
@@ -91,11 +112,17 @@ cat archivo1.txt
 cat directorio1/archivo2.txt
 ```
 
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/3_7.jpg)
+
+
 8. Verificación Final: Verifica los permisos y propietario de los archivos y directorio nuevamente con `ls -l` y `ls -ld`.
 ```
 ls -l
 ls -ld
 ```
+
+![](https://github.com/Estephanielh/so1_actividades_201603064/blob/master/actividad3/assets/3_8.jpg)
+
 
 ## Reflexión:
 Contestar las siguientes preguntas:
